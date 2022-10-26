@@ -1,0 +1,155 @@
+/* 5olsa el dars be3lmk e3ne ay 3D we ank enf3 t7t el 3 5syat fe el band da tlma hya 0 eb2a none we 25rha 1 hna ana mst5dm 5sya w7da */
+
+                                            /* --------------------- */
+
+                                    /* transform: rotate3d(0, 1, 0, 74deg); */
+                                                    
+                                                        /* X  Y  Z */
+                                               /* hna el ast5dam fe el sh2lba */
+
+                                                /* --------------------- */
+
+
+
+       /* 5olsa el dars */
+
+     /* el 5olsa ank t2dr t23d t5tr3 br7tk we best5dmoha fe box be3 el montgat 
+    transform: rotatez(-90deg);
+    transform-origin:  top;
+
+    transform: rotatey(-90deg);
+    transform-origin:bottom  top;
+
+    transform: rotatex(-90deg);
+    transform-origin:  top;
+
+    transform: rotatez(-90deg);
+    transform-origin:left  top; */
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shapee {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin: 50px auto;
+   width: 300px;
+   height: 300px;
+   background-color: #eee;
+
+
+}
+
+
+
+
+.shapee .ahmed {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    transition: 1s;
+
+    z-index: 2;
+
+
+/* -------------------------------- */
+          /* 5olsa el dars */
+
+     /* el 5olsa ank t2dr t23d t5tr3 br7tk we best5dmoha fe box be3 el montgat 
+    transform: rotatez(-90deg);
+    transform-origin:  top;
+
+    transform: rotatey(-90deg);
+    transform-origin:bottom  top;
+
+    transform: rotatex(-90deg);
+    transform-origin:  top;
+
+    transform: rotatez(-90deg);
+    transform-origin:left  top; */
+
+
+/* ----------------------------------------- */
+
+    /* bt7rk be el 3ard emen we shmal be el - we el mogb  */
+    /* transform: rotate(90deg); */
+    /* transform: rotate(-90deg); */
+
+          /* ------------------------------- */
+
+
+
+/* el x bt5le el lo7a ttsh2lp akn el wa7d betsh2lp be tre2a ttole  */
+                     /* mfehosh 3ks be m3na el - hwa el mogb  */
+    /* transform: rotatex(90deg);   kda htl2e el div 25tfa 5als  */
+    /* transform: rotatex(160deg);        hna aknk 2lbt el sora el n7ya el tnya */
+             
+                 /* --------------------------- */
+
+
+  
+ /* da bt5le el div etsh2lp n7ya el shmal be el tol el mogb hwa hwa el -  */
+
+/* transform: rotateY(70deg);  da bt5le el div etsh2lp n7ya el shmal be el tol */
+/* transform: rotateY(30deg);        btlf mn el 3ard n7et el shmal bs btb2a w2Fa be el 3ard */
+
+
+                 /* --------------------------- */
+     /* bttsh2lb mn el 3ard we btsht8l salb we mogb  */
+
+
+
+                      /* --------------------------- */
+
+    /* transform: rotateZ(50deg);      bttsh2lb mn el 3ard we btsht8l salb we mogb  */
+                      /* --------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  /* .shape:hover div{ 
+     transform: rotateX(50deg); 
+   transform: rotateY(50deg); 
+    transform: rotateZ(50deg);
+    transform: rotate3d(1, 1, 1, 65deg);
+transform: rotate(30deg);
+  }*/
+  
+ .shapee:hover .ahmed 
+ { 
+
+    transform: rotate3d(1, 1, 0, 74deg);
+
+  }
+
+  

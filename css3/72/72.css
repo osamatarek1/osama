@@ -1,0 +1,44 @@
+
+
+
+
+
+
+.shape {
+     perspective: 300px;     /* lazm el wasm da 3shan 5set translate3d tsht8l we 3la ad ma btde el kyma zy 300px 3lA AD ma bedek msa7a */
+    /* perspective-origin: center center;     el devolt 50% WE center cente devolt mztha ank bt7dd 3aoz el dev de2rb 3lek mn anho gnb*/
+
+
+    perspective-origin: center top;
+  }
+  .shape div {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 1s;
+    /* transform: translate3d(10px, 0px, 10px);   hna btt7km fe el mkan zy ank tgeb el div fe wshk aw emen aw shmal */
+
+                             /* X     Y     Z bta3t el zoom */
+
+
+    font-size: 30px;
+    /* transform: translate(100px, -100px); be3rfk 5set ely zy el margin el 2dema we el fr2 ben el gdeda */
+    /* transform: translateX(100px); nfs el 5sya bs el shmal lo7do */
+    /* transform: translateZ(100px);  nfs el 5sya bs el emyn lo7do*/
+
+    /* transform: translate3d(0, 0, 100px); */
+
+   /* transform: translate3d(0px, 30px, 140px);   el fr2 benha we ben el adema ank t2dr tt7km fe el 3x we bt2dr t7t 5sya perspective: 300px; we de bt7dd el msa7a htkon ad ay 4la 7sb ma bt7t */
+  }
+
+  .shape div:hover{
+    transform: translate3d(0px, 0px, 190px);
+    /* transform: translate3d(20px, 40px, 190px); */
+
+  }

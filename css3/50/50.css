@@ -1,0 +1,46 @@
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+  - justify-content: flex-start => Default Value
+  - align-items: stretch => Default Value
+  - align-content: stretch => Default Value
+  For Child
+  - flex-grow: 0 => Default Value         hna m3na an el 3onsr ekon akbr
+  - flex-shrink: 1 => Default Value              hna ekon el 3onsr as8r 
+  - order: 0 => Default Value
+*/
+
+ /*EL darrs da t2dr mno ank trbt el divat gwa 3nsr ek abb zy ma anta 3aoz tgeb awl wa7d fe el 2a5r we el 3ks htl2e el shr7 fe html we t2dr be 5set shrink we grow ank ts8r 3nsr gwa el app we tkbr 3nsr*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .flex {
+    background-color: #eee;
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+  }
+  .flex div {
+    background-color: #f00;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+     flex-grow: 1;                     /*m3na 1 hna ak bt2olo kol el 3nsar el gwa el div tmla el div el r2ese be m2as wa7d low b2a 3aoz 3onsr mnhm ekbr 3n el b2en ht7dd el 3nsor be class aw mn el html we htdelo el 5sya we ht2ol 3 aw 2 aw 4 3la 7sb anta 3aozo 7gm ad eh 2 e3ny 3aozo 7gmo ad 3onsren we kda  */
+   
+  }
+
+
+  h3{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }

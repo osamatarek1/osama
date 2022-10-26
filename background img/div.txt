@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="cvv.css" />
+
+</head>
+<body>
+
+  <div class="wrapper">
+      <h1>Osama Tarek soon<br> Wep Devloper</h1>
+  </div>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+align-items: center;
+background: linear-gradient(90deg,
+                                 rgba(2,0,36,0.7)0%,
+                                 rgba(9,9,121,0.7)35%,
+                                 rgba(0,212,255,0.7)100%),
+                                 url('osos.png');
+background-size: cover;
+
+}
+
+.wrapper h1{
+
+    font-size: 3.5em;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+
+/* el dars da be3lmk el box el anmaition low htge t3rd montg */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .container {
+    margin: 40px auto;
+    width: 200px;
+    perspective: 600px;    /*de el 3d kol ma htt2ll el nsba kol lma ht7s be be be el 3d ana mzodha 600 3shan da a7sn */
+  }
+  .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+     transform-style: preserve-3d;                    /*  de ely bt5le el wsh el tany eban  */
+
+    transition: transform 1s;
+
+   /* transform-origin: right center;    kol ma ht8er hna fe el center we el right el shkl het8er */
+  }
+
+
+  .box:hover {
+transform: rotatey(180deg); 
+
+    /* transform: translateX(-100%) rotateY(-180deg);               gmda grbha m3a el orign we t2dr t5tr3 br7tk */          
+  }
+
+
+    /* hna hwa m3rf el 2x div el 27mr we el 25dr  */
+  .box .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    backface-visibility: hidden;    /* de ely bt5fe el div  */
+  }
+  .box .front {
+    background-color: red;
+  }
+  .box .back {
+    background-color: green;
+    transform: rotatey(180deg);
+
+  }

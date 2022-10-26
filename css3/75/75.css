@@ -1,0 +1,68 @@
+
+/*
+el dars da be3lmk azy t3ml dera t7mel be 5syat 
+
+animation-name: spin;            
+animation-duration: 1s;           
+
+animation-iteration-count: 2;      
+
+animation-iteration-count: infinite;    */
+
+/*
+  Animation
+  - Iteration Count
+  - Timing Function
+  - Spinner Loading
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: #e8e3e3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px solid #e91e63;
+   transition: transform 0.3s;          /* hna mlhash lzma ln inimation dutatuion 7lt mknha */
+     border-left-color: transparent;   /*hna anta 5fel el gz2 el shmal bta3 el dera 3shan eban el anmiation akno be7ml low kont 3mltha none bdl transbernt kant htb2a shklha w7ssh */
+     animation-name: spin;             /*hna  btsme ay 7aga 4shan el keyframes */
+     animation-duration: 1s;           /* hna bt7dd w2t el animation e23d ad eh 3shan esht8l */
+
+    animation-iteration-count: 2;      /*hna bt2olo 5le elf lften bs mmkn t2olo aktr br7tk */
+
+    animation-iteration-count: infinite;    /* e3ne 5lek sh8al we lf 3la tol de ely m5lya el dyra tlf 24 sa3a */
+
+
+
+
+
+
+
+    
+
+    animation-timing-function: linear;      /*de bt3alg el t2te3a bta3t el dera we hya btlf we s3at mmkn t7tag el t2te3a fe kter awy 8er linear zy fe daras el transform fe 5set easy we kda*/
+
+    /* animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-timing-function: ease-in-out;*/
+
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

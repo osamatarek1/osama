@@ -1,0 +1,115 @@
+.flex{
+background-color: #eee;
+width: 800px;
+height: 800px;
+padding: 20px;
+margin: 20px auto;
+display: flex;
+ /* align-items: stretch;  devolt */
+
+align-items: flex-start;                 /* de bt2olo bdl ma eb2a 3nasr el abn 3shan 5set display:flex 3shan ht5le mrn be el tol tlk2y lnk m7ddtsh hight el tol bta3o fa bt2olo be el 3sr da tol el div 5lehm s8eren  */
+
+}
+
+.flex div{
+background-color: red;
+color: white;
+width: 80px;
+padding: 20px;
+margin-right: 5px;
+
+text-align: center;
+
+
+}
+
+
+.flex div:nth-child(2)
+{
+/* align-self: flex-end; */
+ align-self:center; 
+/* align-self: flex-start; */
+/* align-self: start; */
+
+}
+
+
+.flex div:nth-child(6)
+{
+ align-self: flex-end;
+ /* align-self:center;  */
+/* align-self: flex-start; */
+/* align-self: start; */
+}
+
+.flex div:nth-child(5)
+{
+ align-self: flex-end;
+ /* align-self:center;  */
+/* align-self: flex-start; */
+/* align-self: start; */
+}
+
+
+
+
+
+
+
+
+
+
+
+                        /* hna b3rfk el fr2 ben ank t7t el align item :staret fe el div el r2ese we tde el 5saya  fe ay div abn */
+
+
+.flexx{
+    background-color: #eee;
+    width: 800px;
+    height: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+     /* align-items: stretch;  devolt */
+    
+                 
+    
+    
+    
+    }
+
+    .flexx div{
+        background-color: red;
+        color: white;
+        width: 80px;
+        padding: 20px;
+        margin-right: 5px;
+        
+        text-align: center;
+        
+        
+        }
+
+
+        .flexx div:nth-child(5)
+{
+ align-self: flex-end;                                        /* de bt2olo bdl ma eb2a 3nasr el abn 3shan 5set display:flex 3shan ht5le mrn be el tol tlk2y lnk m7ddtsh hight el tol bta3o fa bt2olo be el 3sr da tol el div 5lehm s8eren  */
+ /* align-self:center;  */
+/* align-self: flex-start; */
+/* align-self: start; */
+}
+
+
+
+
+
+
+
+
+
+
+h6{
+
+
+    font-size: 40px;
+}

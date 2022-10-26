@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="cvv.css" />
+
+</head>
+<body>
+
+  <section class="blue">
+      <h1>Nice Curves</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam consequatur quidem cum, tempore sunt nostrum officiis quasi placeat cumque? Pariatur, accusantium sit expedita asperiores recusandae at tempora veritatis culpa nostrum!</p>
+  </section>
+  <section>
+      <h1>Nice Curves</h1>
+            <p>Nemo omnis aut ut consectetur possimus qui repellat porro labore excepturi harum, quaerat eligendi est inventore, consequuntur officiis voluptatibus. Vero doloribus sit dolorum enim illum veritatis doloremque quibusdam ullam officiis!</p>
+            <div class="curve"></div>
+  </section>
+  <section>
+      <h1>Nice Curves</h1>
+      <p>Iusto, quia architecto corrupti nobis a quos molestias. Placeat officiis dignissimos nulla obcaecati cupiditate! Beatae omnis error doloremque optio quisquam alias esse labore vitae ut sunt odio, voluptates obcaecati iure.</p>
+  </section>
+  <section class="bubble">
+      <h1>Nice Curves</h1>
+      <p>Amet, dignissimos. Eum ducimus nihil natus quaerat maiores necessitatibus? Enim ab vero fugit. Tempora minus, saepe explicabo, quibusdam cum recusandae veritatis temporibus quos alias reiciendis assumenda officia aliquid. Dicta, deleniti!</p>
+  </section>
+  <section class="dark">
+      <h1>Nice Curves</h1>
+      <p>Sed atque sequi deserunt, tempora omnis non quia modi suscipit, nostrum voluptatibus eos nisi velit exercitationem? Nostrum, vitae explicabo alias accusantium ea architecto voluptas molestiae aperiam! Sit nostrum quae ipsa!</p>
+  </section>
+  <section>
+      <h1>Nice Curves</h1>
+      <p>Dolorem velit ea delectus, enim quam, debitis nobis natus tenetur assumenda vitae commodi libero architecto earum ex pariatur rem tempore, magni molestias eveniet necessitatibus atque. Ipsa commodi quae minima vel.</p>
+  </section>
+  <section>
+      <h1>Nice Curves</h1>
+      <p>Natus, cupiditate ea ratione nam voluptatem sint recusandae omnis praesentium nesciunt maiores, asperiores iste vero quia nulla laborum? Possimus at iure non itaque ullam assumenda omnis, reprehenderit saepe nihil eveniet?</p>
+  </section>
+  <section>
+      <h1>Nice Curves</h1>
+      <p>Nulla quae amet vero harum, distinctio maxime odio recusandae numquam minima in deserunt sed deleniti beatae? Saepe, sint mollitia a unde soluta optio dolores commodi repellendus deserunt esse, consequatur aspernatur!</p>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * 
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}*/
+
+/* html, body 
+{
+    background-color: #7f5a83;
+ background-image: linear-gradient(
+    103deg, #7f5a83 0%, #0d324d 74%);
+    min-height: 100vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}*/
+
+body{
+margin: 0;
+font-family: "Prompt", sans-serif;
+color:white;
+background: #202731;
+overflow-x: hidden;
+
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20vw;
+    min-height: 400px;
+   
+}
+
+.blue {
+    background: #3c31dd;
+
+}
+
+.red{
+    background: #dd3f31;
+
+}
+
+.pink{
+    background:#ff0066;
+}
+
+.dark{
+    background: #0f0f10;
+}
+
+.curve {
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+
+
+
+}
+
+.curve::before{
+content: "";
+display: block;
+position: absolute;
+border-radius: 100% 50%;
+width: 55%;
+height: 100%;
+background-color: #202731;
+transform: translate(85%, 60%);
+}
+
+
+
+
+.curve::after{
+    content: "";
+display: block;
+position: absolute;
+border-radius: 100% 50%;
+width: 55%;
+height: 100%;
+background-color: #3c31dd;
+transform: translate(-4%, 40%);
+z-index: -1;
+}
+
+
+.bubble{
+    content: "";
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    bottom: 0;
+    height: 85%;
+    width: 100%;
+    background-color: #0f0f10;
+    z-index: -1;
+}

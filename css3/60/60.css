@@ -1,0 +1,105 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+  -grid-template-areas:                  da el dars 
+  - justify-content
+  - align-content
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+ul{
+   list-style: none;
+}
+
+
+ul li{
+display: inline-block;
+ 
+  
+
+}
+
+
+
+                                                        /* dars mhm gdn el 5lasas be3lmk azy ttoz3 el 3nasr be kol shola m3loma hwa mshr7sh 2zy e3ml msa7a fe el li bs ana grbt 27tf fe el Ul disply:filex we wz3thm we be el margin zbt */
+
+
+                                          /* m3loma ely besh8l  grid-template-areas:                  
+                                          "logo logo nav nav nav nav nav nav nav nav"                                       
+                                          "cont cont cont cont cont cont cont . side side"          
+                                          "foot foot foot foot foot foot foot foot foot foot";     
+                                          
+                                          ank lazm t3rfhm zy ma 3aml kda 
+                                          lazm clas el gird-area we kol asm ktbto btktbo feha zy ma shar7 
+                                          h2{
+                                            grid-area: logo;
+                                            background-color: red;
+                                            color: white;
+                                            }*/
+
+
+
+
+
+
+.page{
+  height: 100vh;
+  display: grid;
+  background-color: rgb(148, 125, 125);
+ grid-template-columns: repeat(10, 1fr);                                                  /*  hna bt2olo 2smle 10 3omed */
+
+
+  grid-template-rows: 50px auto 50px;                                                     /*  hna bt2olo 5le 2ol mrbr3 fo2  50px we ely fe el nos ya5d ba2y ek nsa7a we 25r wa7d 50px*/
+
+  grid-template-areas:                                                                    
+  "logo logo nav nav nav nav nav nav nav nav"                                               /*    hna bt2olo 5le div logo ekon fe 2x msa7a we nas ea5d el ba2y m3loma anta m5lehm 8x nav we 2x logo bss ank mde fo2  grid-template-columns: repeat(10, 1fr);   low 2llt el 3omd we 5kthm 5, 5fr mcln ebb2a t7t 5x say mcln 2x nav 3x logo  */  
+  "cont cont cont cont cont cont cont . side side"                                              /*   hna nfs el klam*/
+  "foot foot foot foot foot foot foot foot foot foot";                                          /*   hna nfs el klam*/
+  
+}
+
+
+
+
+
+h2{
+grid-area: logo;                                                /*   aho de ely m3rfa 2ol div ktbt asm el wasm we ktbt fe grid-area:logo  zy ma ktbtha fo2 fe grid-template-areas: kol saf lazm t3rfo*/
+background-color: red;
+color: white;
+}
+
+nav{
+  grid-area: nav;                                                    /*nfs el klam lazm t3rfo da el div ely gb 2ol wa7d */
+  background-color: blue;
+  color: white;
+}
+
+section{
+grid-area: cont;
+
+background-color: yellow;
+
+}
+
+
+aside{
+  grid-area: side;
+  background-color: rgb(0, 225, 19);
+}
+
+
+footer{
+  grid-area: foot;
+  background-color:rgb(12, 9, 11);
+  color: white;
+}

@@ -1,0 +1,91 @@
+                                                        transform: scaleX(2);
+                                                        transform: scaleY(2);
+                                                        transform: scale(2, 2); 25tsar el 5seten
+
+
+                                  da be3ml stretsh le el div we el klma ely gwa x htl2e he3ml mn el emen we el y mn el shmal aw el 3ks
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                          transform: scale(1.3);  de bt3ml zom lma t3ml hover
+
+
+
+
+
+
+            /*transform: rotate(10deg);        /*kda ht5le el sora tlf lma tshaor  WE low fkrt t7t el 5seten m3 b3d zy kda el Transform:scale msh hesht8l*/
+
+
+
+
+
+                 transform: scale(1.3) rotate(5deg) ; /*kda el 2 sh8lthm m3 b3d el 5seten bs 2ltt el rotate we lazm et7to m3 b3d zy kda w7da tlf we el tnya zom */
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                                   transform: translate(-50px, -50px); 
+
+                                      b2tdr mno t7rk el 3onsr zy al margin we el postiomn  we hwa 27sn mn el postoi...
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                            transform: skewX(20deg); 
+                                                            transform: skewY(20deg); 
+  
+                                                            transform: skew(20deg,10deg); 25tsar le el 5seten
+
+
+                                                    /* el dars da be3lmk azy t3ml dev shklo 8reb bet3ml be zoya */
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                       transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20);            bt2dr mnha t5tsr kol el 5syat tranfform
+
+                 transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2);      nfs el klam bs lazm t7t  translateX(20px) translateY(20px) fe el 2ol 3shan el 5saya mtb2ash feha fr2 3n el matrix
+   
+                                                                   de skewY(15deg) s0.2679
+
+
+
+
+                                                3shan tfh el 0.2679 de ze el 15 deg we el rkm da = nfs el rkm da 
+
+
+                                                              ht3ml b7s 3n tan of angle deg htghm el arkam we el deg
+
+
+                                                                        ---    ---    -----
+                                                                         tan of angle deg
+
+                                                                          ---- ----- ---
+                                                                                link 
+                                                        
+https://images.search.yahoo.com/search/images;_ylt=A0geKLoEqRNibbsAwSVXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=tan+of+angle+deg&fr2=piv-web&type=E210US91105G0&fr=mcafee#id=0&iurl=https%3A%2F%2Ffthmb.tqn.com%2FzxUhYCzqfdn6tycMf7712hSLDVE%3D%2F960x640%2Ffilters%3Afill(auto%2C1)%2Fexcel-tan-function-tangent-trigonometry-2-5856d9143df78ce2c324e091.jpg&action=click
+.
+
+                                                         https://developer.mozilla.org/en-US/docs/Web/CSS/angle
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+el 5sa7a de bt5lek t7dd el div ero7 de anho atgah best5dmo m3ha         transform: rotate(628deg); 3shan lma t3ml hover elf m3ak 3la el mstwy ely 7ddto be origin
+ 
+
+
+       transform-origin: 50% 50%;
+        /* transform-origin: center center; */
+
+        /* transform-origin: 10% 10%; */
+        /* transform-origin: left left; */
+
+        /* transform-origin: 100% 100%; */
+        /* transform-origin: right right; */
+
+
+
+
+

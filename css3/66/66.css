@@ -1,0 +1,73 @@
+ /* 2D transform 
+ Rotate
+ deg= > degrees
+ grad=> Gradians
+ turn=> Turn
+
+ 
+ transform: scale(1.3);  de bt3ml zom lma t3ml hover
+
+ 
+ transform: rotate(10deg); btlf el div 
+ 
+ 
+ */
+ 
+ 
+ .image{
+overflow: hidden;
+width: 192px;
+height: 192px;
+
+}
+
+ .image img{
+    transition: 0.3s;
+}
+ 
+.image:hover img{
+         /*transform: scale(1.3);           /*kda anta lma btshaor 3le el sora bt3ml zom */
+
+       /*transform: rotate(10deg);        /*kda ht5le el sora tlf lma tshaor  WE low fkrt t7t el 5seten m3 b3d zy kda el Transform:scale msh hesht8l*/
+
+
+       transform: scale(1.3) rotate(5deg) ; /*kda el 2 sh8lthm m3 b3d el 5seten bs 2ltt el rotate we lazm et7to m3 b3d zy kda */
+
+
+       opacity: 0.6;           /*  we mmkn t2ll shfafet el sora lma tge t3ml hover */
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ /* div {  
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+                                      m3loma el rotate(90deg); deg el md3om we el 27sn 
+
+
+    transform: rotate(90deg);        he5le el klma be el 3ard bzbt 
+    transform: rotate(180deg);            kda het2lp el n7ya el tanya el klma httsh2lp le t7t 
+    transform: rotate(360deg);               el 3onsr belf 7olen nfso we erg3 zy el 2ol 
+     transform: rotate(-100deg)                  kda helf el n7ya el 2ks 3sham -  salp 
+
+    transform: rotate(1turn);                       m3nha lfa zy el 360deg
+     transform: rotate(.5turn);                      httsh2lp el n7ya el tanya  
+     transform: rotate(.25turn);                     rob3 lfa zy 90deg  
+
+
+    transform: rotate(180deg);
+    transform: rotate(1turn);
+    transform: rotate(0.5turn);
+    transform: rotate(0.25turn);
+  }*/

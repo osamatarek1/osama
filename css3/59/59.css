@@ -1,0 +1,65 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+  - justify-content
+  - align-content
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+
+   
+   
+
+                     /* dol bto3 el msa7a ben el divat */
+
+    /* justify-content:space-between; */
+    
+    /* justify-content: space-around;   */
+    /* justify-content: space-evenly;   hna 2ol ma btde el 5saya bts8r el divat 3rden we t3mlk msa7a mn el shmal we el emen we ma ben el divat */
+     
+
+
+    grid-template-columns: repeat(4, auto);
+
+     grid-template-rows: auto auto auto;
+
+     justify-content: space-around;
+
+     align-content: space-between;
+   
+
+
+
+
+
+    /* align-content: flex-start;      hna bt2olo eb2o fe el 2ol */
+
+    /* align-content: space-around;   bt2olo 5le  el divat fe el nos nos  */
+
+     /* align-content: flex-end;               hna 5lehm fe el 25r  we mgrd ma bt3mlha bts8r el div m3ha tole */
+
+     /* align-content: space-between;          de bt2smhmlk sf div fo2 we sf fe el nos we wa7d fe el 25r */
+     /* align-content: flex-start; */
+   
+    
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+  }

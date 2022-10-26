@@ -1,0 +1,23 @@
+/* el dars da be3ml stretsh le el div we el klma ely gwa x htl2e he3ml mn el emen we el y mn el shmal aw el 3ks */
+
+
+
+
+
+
+
+div {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scale(2, 2);
+}

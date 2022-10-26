@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .parent {
+    margin: 20px auto;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+
+
+  
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }

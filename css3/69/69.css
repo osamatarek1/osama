@@ -1,0 +1,36 @@
+/*
+  matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+*/
+
+/* 5set matrix bt5lek tstkdm kol el 5syat bta3t transform fe band wa7d */
+
+
+
+
+div {
+    margin: 200px auto;
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+
+
+             /* el 2 wa7d el fr2 bnhm ank menf3sh t5le ebd2 be el scaly lazm ebd2 be el translatex 3shan eb2a nfs el ada2 bta3 matrix
+             htrtbhm kda 
+
+    matrix(3, 0.2679, 0, 3, 20, 100);
+    scaleX(3),skewY(0.2679),skewX(0),scaleY(3),traslateX(20)translateY(100)
+    b3d kda hat ep traslatex we y el 2ol kda aw zy ka 3aml t7t 
+    traslateX(20)translateY(100)scaleX(3),skewY(0.2679),skewX(0),scaleY(3)*/
+
+
+    transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20);
+
+    transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2);
+}

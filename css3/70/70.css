@@ -1,0 +1,205 @@
+
+
+                                    /* bt2dr ank t7dd el zoya bta3t el div  */
+
+
+
+/*
+  transform-origin
+  Syntax
+  Default Values => 50% 50% 0
+  2D Transform => transform-origin(X, Y)
+  3D Transform => transform-origin(X, Y, Z)
+  X-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Left = 0%
+  -- Center = 50%
+  -- Right = 100%
+  Y-Axis
+  - CSS Unit [px, em, rem]
+  - %
+  - Keyword
+  -- Top = 0%
+  -- Center = 50%
+  -- Bottom = 100%
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shape {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);                  /* de zy el position: bt7rk el div; el bt2olol 5le fe el nos */
+
+   width: 300px;
+   height: 300px;
+   background-color: #eee;
+}
+
+.shape .x-axis::before{
+content: "";
+width: 100%;
+height: 2px;
+background-color: black;
+bottom: -20px;
+position: absolute;
+
+
+
+}
+
+
+.shape .x-axis::after{
+    content: "X_Axis";
+    width: 100%;
+    height: 2px;
+    bottom: -28px;
+    left: 50%;
+    
+    position: absolute;
+    transform: translateX(-50%);                /*DE Bt2ol le el 3osr 5lek fe el nos ze el filex kda  */
+
+     /* transform: translateY(-50%);                       kda n7et el right  */
+   /* transform: translateX(-100%);                        2ol el left we kol lma tzod fe el - kol ma herg3  */
+    text-align: center;
+    font-weight: bold;
+    
+
+    
+    }
+
+
+
+
+
+    .shape .y-axis::before{
+        content: "";
+        width: 2px;
+        height: 100%;
+        background-color: black;
+        left: -20px;
+        position: absolute;
+        
+        
+        
+        
+        
+        }
+
+
+
+        .shape .y-axis::after{
+            content: "Y-Axis";
+           height: 60px;         
+           /*  nfs el klam be7tk el gmla */
+            left: -28px;
+            top: 50%;
+            writing-mode: vertical-rl;
+
+            position: absolute;
+            background-color: #fff;
+            text-align: center;
+            font-weight: bold;
+            transform: translateY(-50%);    
+
+            
+            
+            
+            
+            }
+
+
+
+
+
+
+
+    .shape > div{
+       width: 90%;
+       height: 90%;
+       background-color: rgb(255 0 0 / 39%);
+       color: rgb(66, 31, 162);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-weight: bold;
+       font-size: 30px;
+       margin: 5%;
+
+
+
+        /* transform-origin: center center; */   
+
+
+
+                           /* bt2dr ank t7dd el zoya bta3t el div  */
+
+
+
+        /* transform-origin: 50% 50%; */
+        /* transform-origin: center center; */   
+
+        /* transform-origin: 10% 10%; */
+        /* transform-origin: left left; */
+
+        /* transform-origin: 100% 100%; */
+        /* transform-origin: right right; */
+
+         transform-origin: right bottom; 
+         /* transform-origin: 0 0;               da el left */
+
+
+        /* transform: rotate(360deg); */
+
+        transition: 1s;
+        
+        
+        
+        }
+
+
+
+        .shape > div:hover
+{
+
+    transform: scale(0.3) rotate(-100deg) ;
+    
+
+
+
+    }
+
+
+
+
+
+
+
+
+  
+     
+       
+
+ 
+
+
+        
+
+
+
+
+
+
+
+  

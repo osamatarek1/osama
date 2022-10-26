@@ -1,0 +1,118 @@
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]           
+  - justify-content: flex-start => Default Value
+  - align-items: stretch => Default Value     
+  - align-content: stretch => Default Value      
+  For Child
+  - flex-grow: 0 => Default Value            t2dr mnha tkbr div abn akbr mn 25wto we tt7km fe 
+  - flex-shrink: 1 => Default Value          t2dr mnha ts8r div abn akbr mn 25wto we tt7km fe 
+  - order: 0 => Default Value                 el 5saya de btst5dmha ank t2dr trbt abna2 el div bra7tk 
+  - flex-basis: auto => Default Value          btst5dmha fe el resbonsv lma t3ml el shasha 3la ad el mobil we el div 3mode zy el width we el hight bs de bt2bl el 2 we msh btsht8l 8er fe el div el abn + lazm tde el div el r2ed flex-dur..:cluom
+  - flex: [Flex Grow] [Flex Shrink] [Flex Basis] [0] [1] [A]uto  
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .flex {
+    background-color: #eee;
+    width: 800px;
+    padding: 20px;
+    display: inline-flex;
+
+  }
+  .flex div {
+    background-color: #f00;
+    width: 80px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+     /* mn el 25r flex-shrink:  + flex-basis: + flex-grow:  btst5dmhm bdl ma tktb width we hieght */
+    /* flex: 0 200px;          hna anta btst5dm el 3 5syat flx-biss - flex-grow - flex-shrink: ; be el treteb  */
+    /* flex: 1;                hna bt2olo eb2a 2kbr mnhm we hya5d kol el msa7a ely n2sa fe el div da tb3n low anta m7dd 3nsr m3en mn el abn htdelo el 5was msh htdehm le el 3nas kolha zy hna ana shar7 bs el 5saya*/
+   /*  flex-grow: 1;            hna de bt2olo 5le kol abna2 el div 7gm b3d we fe nfs el w2t el 5sya de t2dr tmez div beha 3n div  */
+  }
+
+
+  .flex div:nth-child(2){
+
+    flex: 1;
+
+
+  }
+
+
+
+
+  .in {
+    display: inline-block;
+
+  }
+.osos{
+    border: 1px solid wheat;
+    margin: auto;
+    text-align: center;
+}
+  
+
+
+
+
+
+
+
+
+
+.flexx{
+  background-color: #eee;
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.flexx div{
+
+
+  background-color: #f00;
+  width: 80px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+margin-bottom: 5px;
+}
+
+
+ .flexx div:nth-child(2){  /*5set child zy t5set el t3shesh  */
+  /* width: 300px;  2fla ln 5sya flex-basis: ; hya hya elwidth*/
+/* max-width: 300px;             be2bl 5set max width bardo 3shan t2dr to2fo 3nd 7do */
+/* m3loma kman el flex-basis: ; bemshe m3 el max-width :3ady */
+ flex-basis: 300px;       /*da btst5dmo low mcln fe div gwa abn2 we anta 3aoz 3onsr m3en ekon akbt mn a5wto we kman ht5le el div tole bsbb el resbonsv btst5dm el band da l2n lma btktb el 5saya benfzha bdon ma eboz bardo ana 3mltha be el width 3ad bs lamzm fe el div el r2ese tde     flex-direction: column; 3shan el div e2lp 3mode  */
+ /* flex-basis hwa hwa el width bs e5tlf 3no ano be2bl width we hight m3 b3d best5dm fe resbonsiv */
+}
+
+
+
+h6{
+font-size:40px;
+}
+
+
+.ososs{
+  border: 1px solid wheat;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

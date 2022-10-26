@@ -1,0 +1,100 @@
+ABOSAPRY@DESKTOP-749UHRC MINGW32 /e/OSMA/css3
+$ git init
+Initialized empty Git repository in E:/OSMA/css3/.git/
+
+ABOSAPRY@DESKTOP-749UHRC MINGW32 /e/OSMA/css3 (master)
+$ git add .
+
+ABOSAPRY@DESKTOP-749UHRC MINGW32 /e/OSMA/css3 (master)
+$ git commit -m "osama"
+[master (root-commit) f306b2a] osama
+ 71 files changed, 4466 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 50/247483307_425806112242681_4638766423958616878_n.jpg
+ create mode 100644 50/50.css
+ create mode 100644 50/50.html
+ create mode 100644 51/51.css
+ create mode 100644 51/51.html
+ create mode 100644 52/52.css
+ create mode 100644 52/52.html
+ create mode 100644 52/css.txt
+ create mode 100644 "52/\330\252\330\267\330\250\331\212\331\202 \330\257\330\261\331\210\330\263 \330\247\331\204\331\201\331\204\331\212\331\203\330\263"
+ create mode 100644 53/53.css
+ create mode 100644 53/53.html
+ create mode 100644 53/osos.png
+ create mode 100644 53/ososs.png
+ create mode 100644 55/55.css
+ create mode 100644 55/55.html
+ create mode 100644 56/56.css
+ create mode 100644 56/56.html
+ create mode 100644 57/57.css
+ create mode 100644 57/57.html
+ create mode 100644 58/58.css
+ create mode 100644 58/58.html
+ create mode 100644 59/59.css
+ create mode 100644 59/59.html
+ create mode 100644 60/60.css
+ create mode 100644 60/60.html
+ create mode 100644 61/61.css
+ create mode 100644 61/61.html
+ create mode 100644 62/62.css
+ create mode 100644 62/62.html
+ create mode 100644 63/63.css
+ create mode 100644 63/63.html
+ create mode 100644 65/65.css
+ create mode 100644 65/65.html
+ create mode 100644 66/66.css
+ create mode 100644 66/66.html
+ create mode 100644 66/osos.png
+ create mode 100644 67/67.css
+ create mode 100644 67/67.html
+ create mode 100644 68/68.css
+ create mode 100644 68/68.html
+ create mode 100644 69/69.css
+ create mode 100644 69/69.html
+ create mode 100644 70/70.css
+ create mode 100644 70/70.html
+ create mode 100644 71/71.css
+ create mode 100644 71/71.html
+ create mode 100644 72/72.css
+ create mode 100644 72/72.html
+ create mode 100644 73/73.css
+ create mode 100644 73/73.html
+ create mode 100644 74/74.css
+ create mode 100644 74/74.html
+ create mode 100644 75/75..html
+ create mode 100644 75/75.css
+ create mode 100644 76/76.css
+ create mode 100644 76/76.html
+ create mode 100644 77/77.css
+ create mode 100644 77/77.html
+ create mode 100644 78/78.css
+ create mode 100644 78/78.html
+ create mode 100644 83/83.css
+ create mode 100644 83/83.html
+ create mode 100644 84/84.css
+ create mode 100644 84/84.html
+ create mode 100644 85/85.css
+ create mode 100644 85/85.html
+ create mode 100644 86/86.css
+ create mode 100644 86/86.html
+ create mode 100644 exam 68 73/New Text Document.txt
+ create mode 100644 t3ref bnod el trnsolet/New Text Document.txt
+
+ABOSAPRY@DESKTOP-749UHRC MINGW32 /e/OSMA/css3 (master)
+$ git remote add origin https://github.com/osamatarek1/newcss.git
+
+ABOSAPRY@DESKTOP-749UHRC MINGW32 /e/OSMA/css3 (master)
+$ git push origin master
+Enumerating objects: 105, done.
+Counting objects: 100% (105/105), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (100/100), done.
+Writing objects: 100% (105/105), 106.58 KiB | 3.33 MiB/s, done.
+Total 105 (delta 18), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (18/18), done.
+To https://github.com/osamatarek1/newcss.git
+ * [new branch]      master -> master
+
+ABOSAPRY@DESKTOP-749UHRC MINGW32 /e/OSMA/css3 (master)
+$

@@ -1,0 +1,114 @@
+/*
+  Gradients
+  linear-gradient(Direction || Angle, Color Stop 1, Color Stop 2, ....)
+*/
+
+
+
+
+div{
+    /* background-image: linear-gradient(to right, red , green);  hna anta bt2olo 5le emshe mn el shhmal le el emen 3la edk bs fe el asl hwa m el emen le el shmal  */
+        /* background-image: linear-gradient(to right, red , green);  hna anta bt2olo 5le emshe mn el emen le el shmal 3la edk bs fe el asl hwa m el emen le el shmal  */
+        /* background-image: linear-gradient(to top, red , green);      hna bt2olo el lwon el 27mr eb2a mn t7t we el 25dr mn ffo2 50% 50% */
+        /* background-image: linear-gradient(to bottom, red , green);         hna el 25dr t7t we el 27mr fo2 */
+       
+
+
+
+
+    
+        /* background-image: linear-gradient(90deg, red , green);      hna aknk bt2olo to right  */
+      /* background-image: linear-gradient(0deg, red , green);         hna aknk bt2olo to top */  
+      /* background-image: linear-gradient(180deg, red , green);         hna aknk bt2olo to bottom le t7t */  
+      /* background-image: linear-gradient(270deg, red , green);         hna aknk bt2olo to left el 25dr 3la edk el shmal 30% we el 27mr 3la el emen 70% */  
+        /* m3loma to top m3nha 0deg          to right m3nha 90deg */
+
+
+
+                                                  
+
+                                            /* hna t2dr tdef alwon kter hnb b3d bs bekon shklha 5ra bekon tdrg alwoan bs t2dr t2ll el shfafea zy ma btshaor 3la el lwon we t2ll */
+
+        /* background-image: linear-gradient(to right, red , green , black , rgb(194, 117, 22) , green ); */
+
+
+
+
+
+
+                                 
+                                                                         /* 80% bt7dd beha 3azo el lwon kam fe el % fe el div */
+        /* background-image: linear-gradient(to right, red 80% , green , black , rgb(194, 117, 22) , green );  t2dr be el 80% ank t7dd el lown el 27mr 3ozo ad eh 80% m3hna 80% mn el div lwon 27mr we b3d kda ekml b2et el 2loan */
+
+        width: 400px;
+        height: 200px;
+
+        background-color: #eee;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          /* el tre2a de fshe5a bt2dr mnha ak t3ml shret ffe el div zy el border bs mlon lazm fe band linear ank kol ma t7t lown ze el red we oltlo 20% lazm t7t el lwon hwa hwa b3de we t2olo 25ro fen mcln red 40% we hkza m3da 2ol lon t7to  */
+
+
+/*div {
+  width: 400px;
+  height: 200px;
+  background-color: #eee;
+  margin: 20px auto;
+  position: relative;
+  padding: 10px;
+}
+div:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    #2980b9 20%,
+    #27ae60 20%,
+    #27ae60 40%,
+    #d35400 40%,
+    #d35400 60%,
+    #8e44ad 60%,
+    #8e44ad 80%,
+    #c0392b 80%
+  );
+
+}*/

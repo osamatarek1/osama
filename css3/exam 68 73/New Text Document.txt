@@ -1,0 +1,562 @@
+/* hna ast5dmt 5set transform: skew(-10deg,-10deg); we ast5dmt ::before we ::after we z-index */
+
+
+   .skew{
+    width: 200px;
+    height:50px;
+    color: white;
+    position: relative;
+     margin: 50px auto;
+     text-align: center;
+     font-size: 51px;
+     font-weight: bold;
+     padding: 30px;
+    
+  }
+
+  .skew::after{
+     content: "";
+    background-color: red;
+   position: absolute;
+   top: 0;
+   left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(-10deg,-10deg);
+  }
+
+  .skew::before{
+    content: "";
+   background-color: red;
+  position: absolute;
+   width: 100%;
+   height: 100%;
+   transform: skew(10deg,10deg);
+   z-index: -1;
+   top: 0;
+   left: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* hna ast5dmt 5set  transform: skewX(20deg); fe ::before we  ::after we ast5dmt z-index */
+ 
+
+ .skewwww {
+   width: 150px;
+   background-color: rgb(11, 24, 160);
+   text-align: center;
+   color: white;
+   font-family: serif;
+line-height: 75px;
+  margin-left: calc(50% - 60px);
+   position: relative;
+ }
+ 
+ .skewwww::before {
+   content: "";
+   background-color: rgb(212, 26, 97);
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: -33px;
+   transform: skewX(20deg);
+   width: 15px;
+   height: 75px;
+ }
+ 
+ .skewwww::after {
+   content: "";
+   width: 120px;
+   background-color: rgb(11, 24, 160);
+   height: 75px;
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: -13px;
+   transform: skewX(20deg);
+ }
+ 
+/* Q3  
+            de el rsa el htzbt 3leha 
+  matrix(3, 0.2679, 0, 3, 20, 100);
+  = scaleX(3),skewY(0.2679),skewX(0),scaleY(3),traslateX(20)translateY(100)
+
+
+  el 2 wa7d el fr2 bnhm ank menf3sh t5le ebd2 be el scaly lazm ebd2 be el translatex 3shan eb2a nfs el ada2 bta3 matrix
+             htrtbhm kda 
+
+
+
+    matrix(3, 0.2679, 0, 3, 20, 100);
+    scaleX(3),skewY(0.2679),skewX(0),scaleY(3),traslateX(20)translateY(100)
+    b3d kda hat ep traslatex we y el 2ol kda aw zy ka 3aml t7t
+    
+                el s7 b3d ma tzbt el arkam zy fo2 ht8er 2ol 5nten bs
+    traslateX(20)translateY(100)scaleX(3),skewY(0.2679),skewX(0),scaleY(3)
+
+
+     transfrom :matrix(1.2, 0.2679, 0, 1.2, 20, 20); 
+
+    /* transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2); */
+
+
+          
+  
+
+
+
+
+
+
+
+
+
+
+
+
+   /* hna ast5dmt 5syt transform: rotate(315deg); we ::before we ::after we postion  */
+
+
+
+ .skewgg{
+    margin: 50px auto;
+width: 300px;
+height: 350px;
+border: 1px solid rgba(159, 159, 159, 0.466);
+display: flex;
+align-items: flex-end;
+justify-content: center;
+
+
+}
+
+ .skewg{
+
+   position: relative;
+   width:  200px;
+   background-color: rgb(72, 118, 209);
+   color: white;
+   font-family: serif;
+   height: 150px;
+   border-bottom: 5px solid black;
+   padding-bottom: 50px;
+   
+
+ }
+
+
+ .skewg::after{
+content: "osama";
+position: absolute;
+bottom: 10px;
+left: 8px;
+
+
+
+ }
+
+
+
+
+ .skewg::before{
+   content: "";
+    position: absolute;
+    top: -70px;
+    left: 14%;
+    width: 141px;
+    height: 140px;
+    background-color: rgb(0, 0, 0);
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(315deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerr {
+   margin: 40px auto;
+   width: 200px;
+    perspective: 600px;      /*de ely bt3ml el 3d kol ma zad kyma el px zy kda b2t msh wd7a we da el a7sn  */
+ }
+ .boxx {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   transform-style: preserve-3d;                   /*  de ely bt5le el wsh el tany eban  */ 
+   transition: transform 1s;
+   
+ }
+ .boxx:hover {
+   transform: rotatey(180deg); 
+
+ }
+
+
+         /* hna hwa m3rf el 2x div el 27mr we el 25dr  */
+
+ .boxx .facee {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   backface-visibility: hidden;    /* de ely bt5fe el div  */
+
+ }
+ .boxx .frontt {
+   background-color: red;
+ }
+ .boxx .backk {
+   background-color: green;
+   transform: rotateY(180deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* transform: rotateX(180deg); da el fr2 benha we ben el div ely fo2 da 8ert be rotetx bdl y */
+
+ .containerrr {
+   margin: 40px auto;
+   width: 200px;
+   perspective: 600px;
+ }
+ .boxxx {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   transform-style: preserve-3d;
+   transition: transform 1s;
+   
+ }
+ .boxxx:hover {
+   transform: rotateX(180deg); 
+
+ }
+ .boxxx .faceee {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   backface-visibility: hidden;
+ }
+ .boxxx .fronttt {
+   background-color: red;
+ }
+ .boxxx .backkk {
+   background-color: green;
+   transform: rotateX(180deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* el zyda 7tet    transform-origin: right center; fe eel box el mask el 2x div 27mr we azr2 we 7ter fe el hover bta3 nfs el div bardo    transform: translateX(-100%) rotateY(-180deg); */
+
+
+.container {
+   margin: 40px auto;
+   width: 200px;
+   perspective: 600px;
+ }
+ .box {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   transform-style: preserve-3d;
+   transition: transform 1s;
+   transform-origin: right center;
+ }
+ .box:hover {
+   transform: translateX(-100%) rotateY(-180deg);
+ }
+ .box .face {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   backface-visibility: hidden;
+ }
+ .box .front {
+   background-color: red;
+ }
+ .box .back {
+   background-color: green;
+   transform: rotateY(180deg);
+ }
+
+
+
+
+
+
+          
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="74.css" />
+  </head>
+  <body>
+
+    <div class="inline">hna ast5dmt 5set transform: skew(-10deg,-10deg); we ast5dmt ::before we ::after we z-index </div>
+     <br>
+        <div class="skeww">
+            <h1 class="skew">OSAMA</h1>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="inline">hna ast5dmt 5set  transform: skewX(20deg); fe ::before we  ::after we ast5dmt z-index</div>
+            <br>
+            <div class="inline">  transform:matrix(3, 0.2679, 0, 3, 20, 100); [] transform:scaleX(3),skewY(0.2679),skewX(0),scaleY(3),traslateX(20)translateY(100)</div>
+            <br>
+            <div class="skewww">
+          <h1 class="skewwww">Osama</h1>
+        </div>
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <div class="inline">hna ast5dmt 5syt transform: rotate(315deg); we ::before we ::after we postion</div>
+        <br>
+        <div class="skewgg">
+          <h1 class="skewg"></h1>
+        </div>
+
+
+
+
+
+
+
+
+
+        perspective: 600px;      /*de ely bt3ml el 3d kol ma zad kyma el px zy kda b2t msh wd7a we da el a7sn  */
+
+
+
+        <div class="inline"> perspective: 600px; /*de ely bt3ml el 3d kol ma zad kyma el px zy kda b2t msh wd7a we da el a7sn we    transform-style: preserve-3d;                   /*  de ely bt5le el wsh el tany eban  */ 
+          */  we de fe el hover    transform: rotatey(180deg);   we      backface-visibility: hidden;    /* de ely bt5fe el div  */ </div>
+        <br>
+        <div class="containerr">
+          <div class="boxx">
+            <div class="facee frontt">Front</div>
+            <div class="facee backk">Back</div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="inline">transform: rotateX(180deg); da el fr2 benha we ben el div ely fo2 da 8ert be rotetx bdl y</div>
+        <br>
+        <div class="containerrr">
+          <div class="boxxx">
+            <div class="faceee fronttt">Front</div>
+            <div class="faceee backkk">Back</div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="inline">el zyda 7tet    transform-origin: right center; fe eel box el mask el 2x div 27mr we azr2 we 7ter fe el hover bta3 nfs el div bardo    transform: translateX(-100%) rotateY(-180deg);</div>
+        <br>  
+        <div class="container">
+          <div class="box">
+            <div class="face front">Front</div>
+            <div class="face back">Back</div>
+          </div>
+        </div>
+
+
+
+
+
+  </body>

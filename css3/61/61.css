@@ -1,0 +1,121 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+  - justify-content
+  - align-content
+  - grid-template-areas
+  Child
+  - grid-column: [Grid-Column-Start] [Grid-Column-End]
+  - grid-row: [Grid-Row-Start] [Grid-Row-End]
+*/
+
+
+            /* el 5sayt 2ly 2t3lmta */
+
+
+
+  /* grid-column: span 4;  m3na ank bt2olo 5d 3 msa7a be el 3ard mn el div */
+
+
+  /* grid-row: span 4;              m3nha 5d 3 msa7a be el tol mn el div */
+
+
+  /* grid-column: 2 / span 3;          m3nha 2 2ly fe el 2ol e3ny bt2olo seb mkan fady we b3dha 5d msa7a 2 div be el 3ard */
+
+
+  /* grid-row: 2 / span 3;      hya hya 5d msa7a fe el 2ol we 23ml msa7a 2 div be el tol */
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+   
+    gap: 10px 10px;
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+                                                                            /* el dars da zy 5set el taply fe el html bd5l divat fe b3d */
+  .os{
+
+                                                         /* m3loma mhmha low mcln 3oz div hwa rkm 3 fe el html eb2a ht2olo  3 / 5 kda bt2olo 23mle 4 msafat bs tb3n 2t3aml be el span 27sn */
+
+                                                        /* de aknk bt2olo  grid-column: span 4;  bs tre2t el span 27sn grid-column: 1 / 5; we de m3nhha ank bt2olo 5d msa7a 4 amakn e3ny 23ml stretch 4 divat */
+
+ /* grid-column: 1 / 5;                 hna anta bt2olo 5le div rkm wa7d ea5d 5amakn mn el gnbo be m3na e3ml stretch eb2a hea5d 4 amakn bs ln el 1 msh bet7sb */
+ /* grid-column: 1 / 6;                    low 2oltlo 6 he5d 5 amakn  */
+ /* grid-column: 1 / 7;                        kda hea5d el sf kolo lnk anta 3aml fe el grid 6 3omed we 2olna 2olna el div nfso msh bet7sb */
+
+
+
+
+
+                                  /* 5d balk menf3sh tzod 3dd fe ano ea5d amakn 2kt ma anta m7dd le el grid e3ny anta hna kont 2aeel le el grid  23ml 6 sfofo menf3sh tege tdelo ea5d mkan 8 divat htl2e sf zad */
+
+ /* grid-column: 1 / 8;                          low 2oltlo 8 b2a hezod sf lnk 25rk 7 bs lnk 3aml 6 sfof fa kda 8alt */
+
+
+
+
+                                                         /* el span 27sn 7l */
+
+/* grid-column: span 4;                              de el tre2a el s7 anta 2oltlo span 4 e3ne 5d mkan  4 23mda */
+
+
+
+                                        /* tb3n kol ma tzod fe el msa7a e3ny low 2ayl msa7 2 fe el 2ol he3mlk mrb3 w7d fady kol ma tzod hsblk msafa */
+
+  /*grid-column: 2 / span 3;                        de 5saya gmda low anta 3aoz t3ml msa7a fe el 2ol we tseb el mrb3 fady bt2olo 2bd2 mn tany mrb3 we 5d msa7a 3 amakn  */
+
+
+
+ grid-row: span 4;                                                        /* hna b2olo 23ml msa7a3 div  be el tol */
+
+
+
+  }
+
+
+
+  .osos{
+    grid-row: span 2;                                                          /* hna b2olo 23ml msa7a be el tol mra zyda*/
+
+  }
+
+
+  .ososs{
+
+    
+    grid-column: span 3;                                           /*  hna 23ml msa7a be el 3ard*/
+
+
+  }

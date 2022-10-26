@@ -1,0 +1,133 @@
+/*
+  Animation
+  - Iteration Count
+  - Timing Function
+  - Spinner Loading
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: #e8e3e3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+
+
+
+
+    animation-name: coloring;                            /*el asm 3shan t3rf el key   */
+    
+
+
+
+
+
+
+    animation-duration: 5s;                           /* m3nha w2t el inimation 5 swany */
+
+
+
+
+
+
+
+
+    animation-iteration-count: infinite;               /* e3ne 5lek sh8al we lf 3la tol de ely m5lya el dyra tlf 24 sa3a */
+    animation-iteration-count: 1;                       /* bt2olo e3ml el animaiton mra w7da bs */
+
+
+
+
+
+
+                                     /* el 5sya de mnha 5syat kter aktr mn dol  */
+
+    animation-timing-function: linear;                  /* de bt3alg el t2te3a bta3t el dera we hya btlf we fe kza 7aga tany ab2a sa3d nfsk mn el mtsf7 nfso inspct */
+ /* animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+    animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-timing-function: ease-in-out;*/
+
+
+
+
+
+
+                            /* htst5dmha fe el dera ely btlf  t2dr tst5dmha fe el 2lwan kman ht3ms el trteb bta3 el keyform */
+                                                 /* dufolt normal */
+    animation-direction: reverse;           /* bt8er beha mkan el animtion be m3na low el dera btlf shmal mmkn t5leha tlf emen*/
+    animation-duration: alternate;           /*de bt5leha ttl3 le odam we trg3 tany mknha ht7tgha fe 7gat kter */
+    /*animation-duration: alternate-reverse;     e3ne 5leha ttl3 le wra we trg3 odam 3ks alternate */
+    animation-direction: reverse;           /* bt8er beha mkan el animtion be m3na low el dera btlf shmal mmkn t5leha tlf emen*/
+
+
+
+
+
+
+                                             /* hna bt2dr tt7km hebd2 animation b3d ad eh w2t */
+
+
+    animation-delay: -2s;    /* bt2olo el imtion en2s mn el w2t 2 swany be m3na low mde 5 swany ebd2 hwa hebd2 b3d 3 bs lnk 2ayl -2*/
+    animation-delay: 2s;    /* bt2olo el imtion e23d 2 swany b3d kda ebd2  */
+
+
+
+
+
+
+    
+
+
+                                      /* el 5syat de low anta 3aml morb3at bt8er el lwon bta3o  begy 3la 25r lwon we esbt el lwon da we merg3sh le el lon el asly  */
+                                             /* be3ml kda 3la 7sb el  animation-direction: reverse;  */
+                                             /* grb br7tk ln el zero m3rfsh eshr7a we 2al ank msh htst5dmha awy */
+
+animation-fill-mode: forwards;               /*  de low mcln anta 3aml mrb3 be8er el 2lwan zy hna b3d ma e5ls anmition el 2lwan el mfrod herg3 le el lwon el tbe3e bta3o el 5sya de htrg3o le el lwon el 25er fe el key ely hwa hna black*/
+animation-fill-mode:backwors;
+/* animation-fill-mode:both;                            el atnen m3 b3d */
+
+
+
+
+
+
+
+
+ animation: coloring 3s linear 2s infinite reverse;            /* 25tsar el 5syat kolha fe code */
+
+
+
+
+
+    animation-play-state: running;               /*  de btst5dmha m3 hover low 3aoz el sh5s eshaor 3la el 7aga 2ly bt3ml anmition t2f we t3ml stop de bt3ml kda*/
+
+  }
+  div:hover {
+    animation-play-state: paused;       /*kda bt2olo 2ol ma eshaor 3la el div e3ml stop le el anmition*/
+  }
+
+
+
+
+
+  @keyframes coloring {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: black;
+      }
+    }

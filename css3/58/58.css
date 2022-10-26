@@ -1,0 +1,74 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+  - gap: [Row Gap] [Column Gap]
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+
+                                         /* hnna bshr7lk azy tt7km fe el el hight bta3 el div aw bta3 el 3omed 2ly anta 3mlha msh bta3 el 3nsr el div nfso */
+
+
+
+    /* grid-template-rows: 100px 100px 200px;       el 5saya de t2dr mnha ank t7dd el hight bta3l el 3omed aw bta3 el div 2ly anta moz3o be el grid  we hya hya nfs 5set gird templet-columns t2dr tno3 7gm el divat br7tk*/
+       
+        /* grid-template-rows: 20% 60% 20%;               hya hya bt2olo el hight bta3 2l 2ol 20% we el tany 60 we el 25er 20 */
+   
+
+        /* grid-template-rows: 300px auto auto;             bt2olo 2ol 3mod 300px we el 2 2ly b2en ad b3d  */
+
+
+         grid-template-rows: 200px 1fr 1fr;                    /* nfse el klam el fr hna zy al auto bs el fr2 el fr tma3a lkn el auto bta5d 3la ad 7gm el div bzbt */
+
+        /* grid-template-rows: auto auto 1fr; */
+
+        /* grid-template-rows: auto auto auto; */
+
+        /*  grid-template-rows:100px repeat(2, auto) */
+
+        /* grid-template-rows: repeat (3, auto); */
+
+
+       
+
+
+
+                                                           /* dol be3mlolk msa7a 3ard we tol ben el divat */
+
+        row-gap: 20px;                                    /*de bt3mlk msa7a ben el div hight */
+
+        column-gap: 20px;                                 /* de bt3mlk msa7a ben el div 3arde zy msafa el filex*/
+ 
+
+        /* gap: 10px 10px;                                de 25tsar le el msa7a tole we 3arde 25tsar le row-gap: ;   + column-gap:  */
+
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    /* gap: 10px 10px; */
+  }
+
+
+
+  
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }

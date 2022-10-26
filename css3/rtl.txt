@@ -1,0 +1,112 @@
+	                                                         درس 5
+
+<p>osama tarek ahme ali <bdi>  السلام عليكم ورحمه الله وبركاته.</bdi><p>         الوسم ده لو عاوز انك تكت كلامه عربي في كلام انجليزي وتخلي ال مظبوطه rtl
+
+ تمشي في الانجليزي وال العربي
+
+--------------------------------------------
+
+<input typy= "text" dir="auto"/ >                الخصيه دي بتقولو اظبط الديركشن في العربي والانجليزي
+
+-----------------------------------------------------------------------------------
+
+
+dirctin rtl or ltr le el phone we el icon
+
+
+--------------------------
+
+el border-ridus ht3kso fe el 3rby low hwa fe el engilsh 0 10 0 10 ht5le el 3ks 10 0 10 0
+
+------------------------
+
+fe el befor we el after low mcln 3aml shm lazzm fe el 3arby t8er el atghat bt3to + t2fl el 5syat zy left:auto
+------------------------------------------------------------------------------------------------------------
+
+EL SAHM
+.parent .child{
+    background-color: #ddd;
+    margin:20px auto;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+hna english
+.parent .child::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+   transform: translateY(-50%);   /* hna beost be el tol we el traslateX btost be el 3ard */
+   border-width: 15px;
+   border-style: solid;
+   border-color: transparent green transparent transparent ;
+
+}
+
+
+
+
+
+
+hna arbic
+.parent .child::before{
+    border-color: transparent #DDD transparent transparent;
+    right: auto;
+    left:-30px;
+    top: 50%;
+
+}
+
+----------------------------------------------------------
+
+hna el border fe el box  low 3mlo fe el engilsh fe el shmal
+.parent .child{
+    background-color: #ddd;
+    margin:20px auto;
+    width: 300px;
+    height: 100px;
+    border-width: 0 0 5px ;
+  border-color: #F00;
+  border-style: solid;
+
+
+
+}
+
+lma tge t3ml rest fe el arbi
+
+.parent .child{
+  
+border-width: 0 5 0  0px ;
+  
+
+
+
+}
+
+ ------------------------------------------------------------------------------------------------------------
+ el box-shadow
+
+hna fe el engilsh
+.parent .child{
+    background-color: #ddd;
+    margin:20px auto;
+    width: 300px;
+    height: 100px;
+   box-shadow: 10px 0ox 10px #ccc;
+}
+
+
+hna fe el 3arby 
+.parent .child{
+    background-color: #ddd;
+    margin:20px auto;
+    width: 300px;
+    height: 100px;
+    box-shadow: -10px 0ox 10px #ccc;
+
+}
+
+----------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                               

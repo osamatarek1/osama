@@ -1,0 +1,115 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction Repeat(), Mix] 
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /* ml7oza hwa 7ttlk 9 div abn 3shan tt3lm s7 be m3na tt3lm t2sm lnk low mcln adet 50% 50% htl2e rkm 9 mtzbtsh we d5l fe 3mod t7thm */
+
+                         /* el 5olsa ank low mde 9 abn2a abn we 3aoz t2smhm gwa el div bt2smhm 3omed zy ma ana 3aml we bt7dd kol 3mod heb2a kam% */
+
+    /* grid-template-columns: 100px 100px 100px ;         de m3nha ank bt2olo ansh 3 23mda we 7t kol 3x div fe 3mod eb2a el 9 div at2smo */
+    /* grid-template-columns: 40% 50% 10%;           hna bt2olo 2ol 3mod 40% tany 3mod 50% 25r 3mod 10 */
+       /* grid-template-columns: 100px 100px 100px 200px;     hna msh hekon mzbot */
+       /* grid-template-columns: 25% 50% 25%;      da kda mzbot lnk adeto el 100% kolhm we 2smt 3la 3 3omed */
+
+
+
+
+
+
+
+
+
+
+                         /* m3na al auto ano be5d el msa7a 2l b2ya mn el div low 3mlt auto auto auto heb2o ad b3d */
+                       /* m3loma al auto msh tm3 be m3na bea5d msa7a 3la ad el div bzbt aw el klma 2ly mktoba */
+
+
+      /*  grid-template-columns: auto auto auto;    mmkn t2smhm auto be m3na kolhm eb2o ad b3d 3la 3 3omed */
+    /*  grid-template-columns: auto auto auto auto auto; */
+
+
+
+
+
+
+
+
+
+
+                                       
+
+                                 /* m3na repet{5,auto} e3ny bt2olo 5le 5 3omed ad b3d repeat(3, auto);  bt2olo 5le 3x div ad b3d */
+
+
+       /* grid-template-columns:repeat(5, auto);       m3na 5 ank bt2olo 3ozhm el 9  div 3la 5 23mda we auto m3nha ekono ad b3d  */
+       /* grid-template-columns:repeat(3, auto);             kda hemlo el div l2nhm 9 div we anta 2smthm 3la 3 23mda fa kol 3mod bea5d 3  */
+     /* grid-template-columns: 100px 200px 25% auto;       hna anta mmkn tshkl he2sm 3ady zy ma 2elo we auto hde b2a el msa7a kmla le 25r 3mod lnk 2olt auto */
+     /* grid-template-columns: 100px repeat(3, 50px) 25% repeat(2,auto);           hna b3rfk ank enf3 tshkl br7tk bnhm kolhm */
+
+
+
+
+
+
+
+
+
+
+
+                            /* hna b3rfk el fr2 ben el 1fr we al auto we el fr tma3 be m3na baed msa7a akbr lkn el auto be5d 3la ad el div bzbt */
+
+     /* grid-template-columns: 100px 100px 1fr 1fr;                m3na far hna zy 5sayt auto bta5d ba2e el msa7a bs fe fr2 benha we ben al auto de tma3a e3y bta5d aktr mn el auto al auto bta5d 3la ad el div bzbt */
+      /* grid-template-columns: auto auto 1fr 1fr;                     hna anta bt2olo 2ol mrb3 auto we el tany auto we 1fr 2fr m3naha 2ol mrb3en ad b3d 1fr he5d rob3 el msa7a 2ly mtb2ya 2fr hea5d ba2y el msa7a kolha bs al auto msh hea5d 100px we 100px ln el 2fr we 1fr tm3en 5le al auto 5d 55px bs                                                */
+
+
+
+
+
+
+
+
+               /* mcln anta hna bt2ol orepeat(5, auto) be m3na 23ml 5 3omed ad b3d repeat(2, 1fr) we m3na de bt2olo 2 3omed e5do b2et el msa7a bta3t el div we eb2o ad b3d  */
+
+
+                 grid-template-columns: repeat(5, auto) repeat(2, 1fr);
+
+
+
+
+
+
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
